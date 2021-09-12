@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1110D61F26EE88FC00281EB5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110D61E26EE88FC00281EB5 /* DetailView.swift */; };
 		116DC71426EE0B3B00FD72FF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DC71326EE0B3B00FD72FF /* Note.swift */; };
 		11A0997026EE078300A9BECD /* watch-notes WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 11A0996F26EE078300A9BECD /* watch-notes WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		11A0997526EE078400A9BECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A0997426EE078400A9BECD /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1110D61E26EE88FC00281EB5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		116DC71326EE0B3B00FD72FF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		11A0996B26EE078200A9BECD /* watch-notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A0996F26EE078300A9BECD /* watch-notes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-notes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 		116DC71126EE0B2300FD72FF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1110D61E26EE88FC00281EB5 /* DetailView.swift */,
 				11A0998026EE078400A9BECD /* ContentView.swift */,
 			);
 			path = Views;
@@ -281,6 +284,7 @@
 				11A0998126EE078400A9BECD /* ContentView.swift in Sources */,
 				11A0998326EE078400A9BECD /* watch_notesApp.swift in Sources */,
 				11A0998526EE078400A9BECD /* ComplicationController.swift in Sources */,
+				1110D61F26EE88FC00281EB5 /* DetailView.swift in Sources */,
 				116DC71426EE0B3B00FD72FF /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
